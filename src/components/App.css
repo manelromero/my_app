@@ -1,0 +1,105 @@
+* {
+  box-sizing: border-box;
+  align-items: center;
+  justify-content: center;
+}
+
+button {
+  height: 40px;
+  width: 120px;
+  font-family: 'Dank Mono';
+  font-size: 18px;
+  font-weight: 600;
+  border: 1px solid #999;
+  background-color: #333;
+  color: #fff;
+  border-radius: 5px;
+}
+
+button:hover {
+  background-color: #000;
+}
+
+button:active {
+  border: 1px solid #000;
+  background-color: #333;
+}
+
+button:focus {
+  outline: 0;
+}
+
+.App {
+  display: flex;
+  width: 100vw;
+  height: 100vh;
+}
+
+.Left {
+  display: flex;
+  flex-direction: column;
+  width: 50vw;
+  height: 100vh;
+}
+
+.Level {
+  display: flex;
+  width: 50vw;
+  height: 25vh;
+  border-right: 1px solid #000;
+}
+
+.First{
+  background: linear-gradient(90deg, #000 0%, #000 20%, #fff 80%, #fff 100%);
+}
+
+.Second {
+  background: linear-gradient(90deg, #0097d7 0%, #0097d7 20%, #fff 80%, #fff 100%);
+  border-top: 1px solid #000;
+}
+
+.Third {
+  background: linear-gradient(90deg, #ffdf1c 0%, #ffdf1c 20%, #ee3524 80%, #ee3524 100%);
+  border-top: 1px solid #000;
+}
+
+.Fourth {
+  background: linear-gradient(90deg, #d18816 0%, #d18816 20%, #aa2d2a 80%, #aa2d2a 100%);
+  border-top: 1px solid #000;
+}
+
+.Right {
+  width: 50vw;
+  height: 100vh;
+}
+
+.Image {
+  position: fixed;
+  top: calc((100vh - 661px) / 2);
+  right: calc((50vw - 502px) / 2);
+  width: 502px;
+  height: 661px;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: 502px 661px;
+}
+
+.Background {
+  background-image: url('../assets/1.png');
+}
+
+.Image1 {
+  background-image: url('../assets/2.png');
+}
+
+.Image2 {
+  background-image: url('../assets/3.png');
+}
+
+.Image3 {
+  background-image: url('../assets/4.png');
+}
+
+.Image4 {
+  background-image: url('../assets/5.png');
+}

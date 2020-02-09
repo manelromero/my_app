@@ -9,16 +9,19 @@ const store = {
   },
 
   configure() {
-    let middlewares = [thunk.withExtraArgument()];
-    const initialState = {};
-
     const logger = createLogger({ collapsed: true });
-    middlewares = [...middlewares, logger];
+    const initialState = {
+      showImage1: false,
+      showImage2: false,
+      showImage3: false,
+      showImage4: false,
+      showImage5: false,
+    };
 
     this.store = createStore(
       rootReducer,
       initialState,
-      applyMiddleware(...middlewares)
+      applyMiddleware(thunk, logger)
     );
 
     return this.store;

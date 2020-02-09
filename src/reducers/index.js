@@ -1,14 +1,12 @@
-const initialState = [];
-
-const partners = (state = initialState, action) => {
+const reducer = (state, action) => {
   switch (action.type) {
-    case 'aaa':
-      const { partners } = action.payload;
-      return partners;
+    case "SHOW_IMAGE":
+      const image = `showImage${action.payload}`;
+
+      return { ...state, [image]: true };
     default:
       return state;
   }
 };
 
-export default partners;
-
+export default reducer;
