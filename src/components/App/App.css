@@ -4,6 +4,10 @@
   justify-content: center;
 }
 
+body {
+  margin: 0;
+}
+
 button {
   height: 40px;
   width: 120px;
@@ -49,6 +53,15 @@ button:focus {
   border-right: 1px solid #000;
 }
 
+.Level .Message {
+  position: absolute;
+  font-family: 'Dank Mono';
+  font-size: 18px;
+  font-weight: 600;
+  color: #ffd54f;
+  margin-left: 275px;
+}
+
 .First{
   background: linear-gradient(90deg, #000 0%, #000 20%, #fff 80%, #fff 100%);
 }
@@ -85,21 +98,21 @@ button:focus {
 }
 
 .Background {
-  background-image: url('../assets/1.png');
+  background-image: url('../../assets/1.png');
 }
 
 .Image1 {
-  background-image: url('../assets/2.png');
+  background-image: url('../../assets/2.png');
 }
 
 .Image2 {
-  background-image: url('../assets/3.png');
+  background-image: url('../../assets/3.png');
 }
 
 .Image3 {
-  background-image: url('../assets/4.png');
+  background-image: url('../../assets/4.png');
 }
 
 .Image4 {
-  background-image: url('../assets/5.png');
+  background-image: url('../../assets/5.png');
 }
