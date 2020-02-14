@@ -8,7 +8,7 @@ function FourthLevel({ showImage4, showLevel }) {
   return (
     <div className="Level Fourth">
       <button onClick={handleClick}>Toggle</button>
-      {showImage4 && <div className="Message">Showing image</div>}
+      {showImage4 && <div className="Message">Showing ball</div>}
     </div>
   );
 }

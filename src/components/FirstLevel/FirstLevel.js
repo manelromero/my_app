@@ -8,7 +8,7 @@ function FirstLevel({ showImage1, showLevel }) {
   return (
     <div className="Level First">
       <button onClick={handleClick}>Toggle</button>
-      {showImage1 && <div className="Message">Showing image</div>}
+      {showImage1 && <div className="Message">Showing Batman logo</div>}
     </div>
   );
 }

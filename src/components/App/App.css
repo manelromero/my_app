@@ -58,8 +58,10 @@ button:focus {
   font-family: 'Dank Mono';
   font-size: 18px;
   font-weight: 600;
-  color: #ffd54f;
-  margin-left: 275px;
+  color: #000;
+  margin-left: 200px;
+  align-items: center;
+  justify-content: center;
 }
 
 .First{
@@ -81,7 +83,7 @@ button:focus {
   border-top: 1px solid #000;
 }
 
-.Right {
+.Picture {
   width: 50vw;
   height: 100vh;
 }
